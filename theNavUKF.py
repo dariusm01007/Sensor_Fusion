@@ -19,7 +19,7 @@ plotUncertainty = True
 
 # Creating a folder to save the images and data from the simulation
 home = os.getcwd()
-savePath = home + "\exampleOutputs"
+savePath = home + "\simRuns"
 
 if not os.path.exists(savePath):
     print("\n{} does not currently exist... creating now:\n".format(savePath))
