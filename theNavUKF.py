@@ -19,7 +19,7 @@ plotUncertainty = True
 
 # Creating a folder to save the images and data from the simulation
 home = os.getcwd()
-savePath = home + "\simRuns"
+savePath = home + "\exampleOutputs"
 
 if not os.path.exists(savePath):
     print("\n{} does not currently exist... creating now:\n".format(savePath))
@@ -487,7 +487,7 @@ for idx in range (0,arrayLength):
         gpsHeading = math.atan2(Vy,Vx)
         
         # Centripetal Acceleration
-        r = np.sqrt(gps.posNorth[i]**2 + gps.posEast[i]**2)
+        r = np.sqrt(gps.posNorth[index]**2 + gps.posEast[index]**2)
         centripetalAccel = r*(BodyRates[2].item()**2)
 
         # Averaging the accelerometer measurements

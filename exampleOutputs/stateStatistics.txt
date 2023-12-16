@@ -1,11 +1,11 @@
 
 ======= Printing the average state errors =======
-Average roll error           = 0.4602299969854661 deg
-Average pitch error          = -0.17543790191101957 deg
-Average yaw error            = 7.4496328124616085 deg
-Average east velocity error  = -0.0026810396984235773 m/s
-Average north velocity error = -0.010556509024642842 m/s
-Average up velocity error    = 0.1565251922937288 m/s
-Average east position error  = 0.04372969029785098 m
-Average north position error = -0.0007528433322912434 m
-Average up position error    = 0.11661703782434889 m
+Average roll error           = 0.49747471512298647 deg
+Average pitch error          = -0.17543674358980127 deg
+Average yaw error            = 7.567659867824561 deg
+Average east velocity error  = 0.001034245047909779 m/s
+Average north velocity error = -0.013044859462700282 m/s
+Average up velocity error    = 0.1540007696881253 m/s
+Average east position error  = 0.04497049148571211 m
+Average north position error = -0.0016735734834906562 m
+Average up position error    = 0.11036603837080293 m
